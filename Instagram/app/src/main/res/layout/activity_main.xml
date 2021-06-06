@@ -25,10 +25,11 @@
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="38dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Phone number, username or email"
+        android:hint="@string/phone_number_username_or_email"
+        android:textColorHint="@color/black"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:background="@drawable/button"
@@ -43,12 +44,12 @@
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="38dp"
         android:layout_below="@+id/editTextTextPersonName"
         android:ems="10"
         android:inputType="textPassword"
         android:layout_marginTop="20dp"
-        android:hint="Password"
+        android:hint="@string/password"
         android:textColorHint="#002944"
         android:background="@drawable/button"
         android:paddingLeft="10dp"
@@ -65,17 +66,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:text="Forgot Password"
+        android:text="@string/forgot_password"
         android:textSize="15sp"
         android:textColor="@color/blue"
-        android:gravity="right"
+        android:gravity="end"
         android:layout_below="@+id/editTextTextPassword"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="LOG IN"
+        android:layout_height="45dp"
+        android:text="@string/log_in"
         android:layout_below="@id/forgotPassword"
         android:textColor="@color/white"
         android:backgroundTint="@color/blue"
@@ -104,18 +105,17 @@
             android:padding="2dp"
             android:background="@android:color/white"
             android:layout_centerHorizontal="true"
-            android:text="OR"
+            android:text="@string/or"
             android:textSize="12sp"/>
     </RelativeLayout>
-
 
     <TextView
         android:id="@+id/loginWithFacebook"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="42dp"
-        android:text="Log In With Facebook"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/log_in_with_facebook"
         android:textSize="15sp"
         android:textColor="@color/blue"
         android:gravity="center"
@@ -134,21 +134,21 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_below="@id/horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="18dp"
         android:gravity="center">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Don't have an account?"
+            android:text="@string/don_t_have_an_account"
             android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign up"
+            android:text="@string/sign_up"
             android:textSize="16sp"
             android:textColor="@color/blue"/>
 
