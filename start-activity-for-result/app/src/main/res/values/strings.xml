@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StartActivityForResult</string>
+    <string name="default_message">Default Message</string>
+    <string name="get_message">Get Message</string>
+    <string name="textview">TextView</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+    <string name="enter_message">Enter Message:</string>
+</resources>
