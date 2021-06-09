@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BroadCastReceiver</string>
+    <string name="click_to_send_message">Click to send message</string>
+    <string name="click_to_broadcast">Click to broadcast</string>
+    <string name="receive_data">Receive data</string>
+</resources>
