@@ -1,17 +1,20 @@
 package Question3
 
+import java.util.*
+
 fun main() {
-    println("Main")
-    val linkedList = LinkedList()
-    linkedList.push(2)
-    println(linkedList.tail())
-    linkedList.push(3)
-    println(linkedList.tail())
-    linkedList.push(4)
-    println(linkedList.tail())
-    linkedList.push(1)
-    println(linkedList.tail())
+    val scanner = Scanner(System.`in`)
+    val queries = Integer.valueOf(scanner.nextLine())
+    var res = ""
+    for (i in 1..queries) {
+        val data = scanner.nextInt()
+        val linkedList = LinkedList()
+        linkedList.push(data)
+        res += linkedList.tail().toString() + " "
+    }
+    println(res)
 }
+
 
 class LinkedList {
     private var first: Node? = null
