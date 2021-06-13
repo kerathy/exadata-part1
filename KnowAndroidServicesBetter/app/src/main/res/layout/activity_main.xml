@@ -33,18 +33,6 @@
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"/>
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="Next Page"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="398dp"
-        android:layout_below="@+id/button2"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:layout_marginLeft="100dp"
-        android:layout_marginRight="100dp"/>
 
 
 </RelativeLayout>
