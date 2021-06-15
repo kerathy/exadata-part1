@@ -14,14 +14,17 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private TextView textView;
+    static final String TAG = "MESSAGE";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.i(TAG, "onCreate Method is invoked");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textView = findViewById(R.id.text_view);
     }
 
     public void sendBroadcast(View view) {
+        Log.i(TAG, "sendBroadcast method is invoked");
         Intent intent = new Intent("ACTION");
         intent.putExtra("TEXT", "Broadcast received");
         sendBroadcast(intent);
@@ -30,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
+            Log.i(TAG, "onReceive method is invoked");
             String text = intent.getStringExtra("TEXT");
 //            System.out.println("text......" + text);
             textView.setText(text);
@@ -39,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onStart() {
+        Log.i(TAG, "onStart Method is invoked");
         super.onStart();
         IntentFilter intentFilter = new IntentFilter("ACTION");
         registerReceiver(broadcastReceiver, intentFilter);
@@ -46,7 +51,10 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onStop() {
+        Log.i(TAG, "Stop Service is invoked");
         super.onStop();
         unregisterReceiver(broadcastReceiver);
     }
+
+
 }
