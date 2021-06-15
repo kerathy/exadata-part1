@@ -8,115 +8,82 @@
     tools:context=".MainActivity"
     android:padding="20dp">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName1"
+    <LinearLayout
+        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="@string/first_name"
-        android:paddingStart="10dp"
-        android:background="@drawable/button"
-        android:maxLines="1"
+        android:layout_height="wrap_content"
         android:gravity="center"
-        android:autofillHints=""
-        android:paddingEnd="10dp"/>
+        android:id="@+id/linearLayoutName"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What's your name?"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
 
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="@string/last_name"
-        android:paddingStart="10dp"
-        android:background="@drawable/button"
-        android:maxLines="1"
-        android:layout_below="@id/editTextTextPersonName1"
-        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Enter the name you use in real life."
+        android:textColor="@color/gray"
+        android:textSize="13sp"
         android:gravity="center"
-        android:autofillHints=""
-        android:paddingEnd="10dp"/>
+        android:layout_below="@+id/textView"/>
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="@string/email"
-        android:paddingStart="10dp"
-        android:background="@drawable/button"
-        android:maxLines="1"
-        android:layout_below="@id/editTextTextPersonName2"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:autofillHints=""
-        android:paddingEnd="10dp"/>
+    </LinearLayout>
 
-    <EditText
-        android:id="@+id/editTextPhone"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:ems="10"
-        android:inputType="phone"
-        android:hint="Phone Number"
-        android:paddingStart="10dp"
-        android:background="@drawable/button"
-        android:maxLines="1"
-        android:layout_below="@id/editTextTextPersonName"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:autofillHints=""
-        android:paddingEnd="10dp"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayoutName">
 
-    <EditText
-        android:id="@+id/editTextTextPassword1"
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_below="@+id/editTextPhone"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:layout_marginTop="20dp"
-        android:hint="@string/password"
-        android:background="@drawable/button"
-        android:paddingStart="10dp"
-        android:maxLines="1"
-        android:gravity="center"
-        android:autofillHints=""
-        android:paddingEnd="10dp"/>
+        <EditText
+            android:id="@+id/editTextTextPersonName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="9"
+            android:inputType="textPersonName"
+            android:hint="@string/first_name"
+            android:maxLines="1"
+            android:autofillHints=""
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"/>
 
-    <EditText
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_below="@id/editTextTextPassword1"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:layout_marginTop="20dp"
-        android:hint="@string/confirm_password"
-        android:background="@drawable/button"
-        android:paddingStart="10dp"
-        android:maxLines="1"
-        android:gravity="center"
-        android:autofillHints=""
-        android:paddingEnd="10dp"/>
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="9"
+            android:inputType="textPersonName"
+            android:hint="@string/last_name"
+            android:maxLines="1"
+            android:layout_marginTop="20dp"
+            android:autofillHints=""
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
 
     <Button
         android:id="@+id/button"
-        android:layout_width="100dp"
-        android:layout_height="40dp"
-        android:text="@string/sign_up"
-        android:layout_below="@id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Next"
         android:textSize="12sp"
         android:textColor="@color/white"
-        android:backgroundTint="@color/black"
-        android:backgroundTintMode="screen"
         android:gravity="center"
         android:maxLines="1"
         android:layout_marginTop="30dp"
-        android:layout_centerInParent="true"/>
-
-
+        android:layout_centerInParent="true"
+        android:backgroundTintMode="screen"
+        android:backgroundTint="@color/blue"
+        android:background="@drawable/button"/>
 
 </RelativeLayout>
