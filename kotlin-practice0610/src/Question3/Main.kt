@@ -1,43 +1,68 @@
 package Question3
 
+import java.lang.StringBuilder
 import java.util.*
 
+
 fun main() {
-    val scanner = Scanner(System.`in`)
-    val queries = Integer.valueOf(scanner.nextLine())
-    var res = ""
-    for (i in 1..queries) {
-        val data = scanner.nextInt()
-        val linkedList = LinkedList()
-        linkedList.push(data)
-        res += linkedList.tail().toString() + " "
+    val scanner = Scanner(System.`in`); val size = scanner.nextInt()
+    val headVal = scanner.nextInt(); var head = Node(headVal)
+
+    val res = StringBuilder()
+    res.append(getTailValue(head))
+    res.append(" ")
+
+    var cur = head; val index = size - 2
+
+    for (i in 0..index) {
+        val newNode = Node(scanner.nextInt())
+        cur.next = newNode
+        cur = newNode
+        res.append(getTailValue(head))
+        res.append(" ")
     }
-    println(res)
+    println(res.toString())
+}
+
+class Node {
+    var value: Int
+    var next: Node? = null
+
+    constructor(_value: Int) {
+        value = _value
+    }
 }
 
 
-class LinkedList {
-    private var first: Node? = null
-    private var last: Node? = null
-    private var len: Int = 0
-
-    fun push(data: Int) {
-        val previous = last
-        last = Node(data)
-        if (len == 0) {
-            first = last
-        } else {
-            previous?.next = last
-        }
-        len++
+fun insertNode(head: Node?, value: Int) : Node? {
+    var cur = head
+    var count = 0
+    while (cur != null) {
+        cur = cur.next
+        count++
     }
 
-    inner class Node(var data: Int) {
-        var next: Node? = null
+    val index = count - 2
+    var pre = head
+    for (i in 0..index) {
+        pre = pre?.next
     }
+    pre?.next = Node(value)
+    return head
+}
 
-    fun tail(): Int {
-        val res = last?.data
-        return res ?:-1
+fun print(head: Node?) {
+    var cur = head
+    while (cur != null) {
+        print("${cur.value}" + "->")
+        cur = cur.next
     }
+}
+
+fun getTailValue(head: Node?) : Int {
+    var cur = head
+    while (cur?.next != null) {
+        cur = cur.next
+    }
+    return cur!!.value
 }
