@@ -3,8 +3,8 @@ package Question3;
 public class Question3 {
 
     public static void main(String[] args) {
-        int[] arr1 = {2};
-        int[] arr2 = {};
+        int[] arr1 = {1, 3};
+        int[] arr2 = {2};
         double res = medianOfTwoSortedArray(arr1, arr2);
         System.out.println(res);
     }
@@ -16,8 +16,7 @@ public class Question3 {
             return medianOfTwoSortedArray(nums2, nums1);
         }
 
-        int cut1 = 0, cut2 = 0, start = 0, end = len1;
-        double res = 0;
+        int cut1 = 0, cut2, start = 0, end = len1;
 
         while (cut1 <= len1) {
             cut1 = start + (end - start) / 2;
