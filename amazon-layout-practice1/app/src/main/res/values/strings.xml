@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="proceed_to_buy_1_item">Proceed to Buy (1 item)</string>
+    <string name="pay_faster_for_all_your_shopping_needs">Pay faster for all your shopping needs</string>
+    <string name="save_for_later">Save for later</string>
+    <string name="todo">TODO</string>
+    <string name="person">Person</string>
+    <string name="menu">Menu</string>
+    <string name="home">Home</string>
+    <string name="shopping_cart">Shopping Cart</string>
+</resources>

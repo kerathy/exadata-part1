@@ -1,0 +1,2 @@
+rootProject.name = "AmazonLayoutPractice1"
+include ':app'
