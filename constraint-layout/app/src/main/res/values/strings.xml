@@ -3,6 +3,10 @@
     <string name="hello">Hello</string>
     <string name="textview">TextView</string>
     <string name="button">Button</string>
+    <string name="to_button_acitivity">To Button Acitivity</string>
+    <string name="to_textview_activity">To textview Activity</string>
+    <string name="text_view1">Text View1</string>
+    <string name="to_imageview_activity">To ImageView Activity</string>
 
 
 </resources>

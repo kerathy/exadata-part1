@@ -16,7 +16,7 @@
 
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/textview"
+        android:text="@string/text_view1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/textview"
+        android:text="@string/to_imageview_activity"
 
         app:layout_constraintBaseline_toBaselineOf="@+id/textView"
         app:layout_constraintLeft_toLeftOf="parent"

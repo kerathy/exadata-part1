@@ -16,7 +16,7 @@
 
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/textview"
+        android:text="@string/to_textview_activity"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

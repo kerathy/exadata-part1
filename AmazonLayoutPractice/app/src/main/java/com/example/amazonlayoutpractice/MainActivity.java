@@ -1,18 +1,19 @@
 package com.example.amazonlayoutpractice;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentManager;
-import androidx.viewpager.widget.ViewPager;
+
 
 import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
+
 
 public class MainActivity extends AppCompatActivity {
 
 //    TabLayout tabLayout;
 //    ViewPager viewPager;
 //    ViewPageAdapter viewPageAdapter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
