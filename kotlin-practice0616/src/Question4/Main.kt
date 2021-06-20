@@ -3,8 +3,7 @@ package Question4
 import java.util.*
 
 fun main() {
-    val scanner = Scanner(System.`in`)
-    val str = scanner.nextLine()
+    val scanner = Scanner(System.`in`); val str = scanner.nextLine()
     val numRows = Integer.valueOf(scanner.nextLine())
 
     if (numRows <= 1) {
@@ -12,10 +11,8 @@ fun main() {
         return
     }
 
-    val sb = Array<StringBuilder?>(numRows) { null }
-    val strLen = str.length
-    val index = strLen - 1
-    val rowIndex = numRows - 1
+    val sb = Array<StringBuilder?>(numRows) { null }; val res = StringBuilder()
+    val strLen = str.length; val index = strLen - 1; val rowIndex = numRows - 1
 
     for (i in 0..rowIndex) {
         sb[i] = StringBuilder()
@@ -30,7 +27,6 @@ fun main() {
         sb[index]?.append(str[i])
     }
 
-    val res = StringBuilder()
     for (i in 0..rowIndex) {
         res.append(sb[i])
     }

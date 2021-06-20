@@ -2,11 +2,8 @@ package Question6
 
 fun main() {
     val arr = readLine()!!.trimEnd().split(",").map{ it.toInt() }.toTypedArray()
-    val target = readLine()!!.trim().toInt()
-    val index = arr.size - 1
-
-    var start = 0
-    var end = index
+    val target = readLine()!!.trim().toInt(); val index = arr.size - 1
+    var start = 0; var end = index
 
     while (start <= end) {
         var mid = start + (end - start) / 2
