@@ -1,0 +1,2 @@
+rootProject.name = "ConstraintLayoutCheckboxRadioSwitchPractice"
+include ':app'
