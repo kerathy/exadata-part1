@@ -1,7 +1,7 @@
 package Question5
 
 fun main() {
-    val node1 = Node(1); val node2 = Node(2); val node3 = Node(3)
+    val node1 = Node(1); val node2 = Node(2); val node3 = Node(4)
     node1.next = node2; node2.next = node3
 //    print(node1)
 
@@ -29,7 +29,15 @@ fun main() {
 
 
 
-class Node(var value: Int, var next: Node? = null)
+//class Node(var value: Int, var next: Node? = null)
+class Node {
+    var value: Int
+    var next: Node? = null
+
+    constructor(_value: Int) {
+        value = _value
+    }
+}
 
 fun merge(list1: Node?, list2: Node?) : Node? {
     var dummy = Node(0); var cur: Node? = dummy
