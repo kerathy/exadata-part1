@@ -10,7 +10,57 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button6"
+            android:orientation="horizontal"
+            android:id="@+id/custom_search_view">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_search_24"
+                android:id="@+id/ic_search"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/todo">
+
+            </ImageView>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:hint="Search Amazon.in"
+                android:textColor="@color/light_gray2"
+                android:id="@+id/search_text"
+                android:layout_marginStart="5dp"
+                android:background="@android:color/transparent"
+                android:autofillHints="">
+
+            </EditText>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ic_camera"
+                android:src="@drawable/ic_baseline_camera_alt_24"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/todo">
+            </ImageView>
+        </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -199,7 +249,7 @@
                     android:layout_marginBottom="9dp"
                     android:orientation="horizontal">
                     <LinearLayout
-                        android:layout_width="220dp"
+                        android:layout_width="260dp"
                         android:layout_height="200dp"
                         android:background="@drawable/button"
                         android:layout_marginLeft="2dp"
@@ -219,26 +269,162 @@
 
                     </LinearLayout>
 
+
                     <LinearLayout
-                        android:layout_width="220dp"
+                        android:layout_width="260dp"
                         android:layout_height="200dp"
                         android:background="@drawable/button"
                         android:layout_marginLeft="2dp"
                         android:layout_marginRight="2dp"
                         android:backgroundTint="@color/light_gray2"
                         android:backgroundTintMode="screen"
-                        android:id="@+id/linearlayout_2">
+                        android:id="@+id/linearlayout_person"
+                        android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="90dp"
-                            android:layout_height="110dp"
-                            android:textColor="@color/black"
-                            android:text="Saved items with price drops"
-                            android:padding="10dp">
-                        </TextView>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/button"
+                            android:orientation="horizontal"
+                            android:id="@+id/linearLayout_winebottle2"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="10dp">
 
+                            <ImageView
+                                android:id="@+id/imageView2"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/fragment2"
+                                android:layout_marginEnd="10dp"
+                                android:contentDescription="@string/todo"/>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/price_textview"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Price"
+                                    android:textColor="@color/black"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold"/>
+
+                                    <TextView
+                                        android:id="@+id/price_textview2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/price_textview"
+                                        android:text="€30.00"
+                                        android:textStyle="bold"
+                                        android:textSize="15sp"
+                                        android:textColor="@color/black"/>
+
+                                    <TextView
+                                        android:id="@+id/Gosri_textview"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="GoSri"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp"
+                                        android:layout_below="@+id/price_textview2"/>
+
+                                    <TextView
+                                        android:id="@+id/georg_textview"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Georg"
+                                        android:textColor="@color/black"
+                                        android:layout_below="@+id/Gosri_textview"
+                                        android:textSize="15sp"/>
+
+                                <TextView
+                                    android:id="@+id/price_textview3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="€569.00"
+                                    android:textColor="@color/red"
+                                    android:layout_below="@+id/georg_textview"
+                                    android:textSize="15dp" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_marginTop="30dp"
+                                    android:layout_below="@+id/price_textview3">
+                                                                    <Button
+                                                                        android:id="@+id/delte_button2"
+                                                                        android:layout_width="50dp"
+                                                                        android:layout_height="20dp"
+                                                                        android:text="Delete"
+                                                                        android:textSize="12sp"
+                                                                        android:backgroundTint="@color/white"
+                                                                        android:backgroundTintMode="screen"
+                                                                        android:background="@drawable/button"
+                                                                        android:textAllCaps="false"/>
+
+
+                                                                    <Button
+                                                                        android:id="@+id/save_for_later_button2"
+                                                                        android:layout_width="100dp"
+                                                                        android:layout_height="20dp"
+                                                                        android:backgroundTint="@color/white"
+                                                                        android:backgroundTintMode="screen"
+                                                                        android:text="@string/save_for_later"
+                                                                        android:textSize="12sp"
+                                                                        android:layout_marginLeft="10dp"
+                                                                        android:textAllCaps="false"
+                                                                        android:background="@drawable/button"/>
+
+
+                                </LinearLayout>
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:id="@+id/relative_layout_delete_button2"
+                            android:layout_marginTop="1dp"
+                            android:layout_below="@+id/linearLayout_winebottle2">
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:orientation="horizontal"-->
+<!--                                android:layout_marginLeft="20dp"-->
+<!--                                android:layout_marginRight="10dp">-->
+
+<!--                                <Button-->
+<!--                                    android:id="@+id/delte_button2"-->
+<!--                                    android:layout_width="50dp"-->
+<!--                                    android:layout_height="30dp"-->
+<!--                                    android:text="Delete"-->
+<!--                                    android:textSize="12dp"-->
+<!--                                    android:backgroundTint="@color/white"-->
+<!--                                    android:backgroundTintMode="screen"-->
+<!--                                    android:background="@drawable/button"-->
+<!--                                    android:textAllCaps="false"/>-->
+
+<!--                                <Button-->
+<!--                                    android:id="@+id/save_for_later_button2"-->
+<!--                                    android:layout_width="120dp"-->
+<!--                                    android:layout_height="30dp"-->
+<!--                                    android:backgroundTint="@color/white"-->
+<!--                                    android:backgroundTintMode="screen"-->
+<!--                                    android:text="@string/save_for_later"-->
+<!--                                    android:textSize="12dp"-->
+<!--                                    android:layout_marginLeft="20dp"-->
+<!--                                    android:textAllCaps="false"-->
+<!--                                    android:background="@drawable/button"/>-->
+<!--                            </LinearLayout>-->
+                        </LinearLayout>
                     </LinearLayout>
-
 
                 </LinearLayout>
             </HorizontalScrollView>
