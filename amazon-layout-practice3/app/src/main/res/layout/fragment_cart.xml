@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartFragment">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button6"
+            android:orientation="horizontal"
+            android:id="@+id/custom_search_view">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_search_24"
+                android:id="@+id/ic_search"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/todo">
+
+            </ImageView>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:hint="@string/search_amazon_in"
+                android:textColor="@color/light_gray2"
+                android:id="@+id/search_text"
+                android:layout_marginStart="5dp"
+                android:background="@android:color/transparent"
+                android:autofillHints="">
+
+            </EditText>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ic_camera"
+                android:src="@drawable/ic_baseline_camera_alt_24"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/todo">
+            </ImageView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/linearlayout_parta">
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button5"
+                android:text="@string/proceed_to_buy_3_items"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:backgroundTintMode="screen"
+                android:backgroundTint="@color/yellow"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayout_winebottle"
+                android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/image1"
+                android:layout_marginEnd="20dp"
+                android:contentDescription="@string/todo" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lexton_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/art_street_lustrus_flower_decorative_wall_mirror_set_of_3_size"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lexton_textview"
+                    android:id="@+id/linearlayout_winebottle_right"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/wineprice_textview"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_799_00"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_below="@+id/linearlayout_winebottle_right"
+                    android:id="@+id/instock_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/in_stock"
+                    android:textSize="12sp"
+                    android:textColor="@color/dark_green"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/instock_textview"
+                    android:id="@+id/linearlayout_merchandizer">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sold_by"
+                        android:textColor="@color/gray"
+                        android:id="@+id/sold_by"
+                        android:textSize="12sp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/painting_mantra"
+                        android:textColor="#336699"
+                        android:id="@+id/merchandizer"
+                        android:layout_marginStart="3dp"
+                        android:textSize="12sp">
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/linearlayout_merchandizer"
+                    android:id="@+id/linearlayout_amazon">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/amazon"
+                        android:id="@+id/amazon_logo"
+                        android:contentDescription="@string/todo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/amazon_delivered"
+                        android:textColor="@color/gray"
+                        android:id="@+id/amazon_delivered"
+                        android:layout_marginStart="3dp"
+                        android:textSize="12sp">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/linearlayout_amazon"
+                    android:id="@+id/linearlayout_color_name">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/color_name"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:id="@+id/color_name"
+                        android:textSize="12sp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rustic_copper_round"
+                        android:textColor="@color/gray"
+                        android:id="@+id/rustic_copper"
+                        android:layout_marginStart="3dp"
+                        android:textSize="12sp">
+                    </TextView>
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/relative_layout_delete_button"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearlayout_deletebutton"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/deletebutton_imageview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_baseline_delete_24"
+                        android:background="@drawable/button4"
+                        android:contentDescription="TODO" />
+
+
+                    <TextView
+                        android:id="@+id/textview_itemcount"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1"
+                        android:textColor="@color/blue"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:layout_weight="2"
+                        android:background="@drawable/button3" />
+
+                    <ImageView
+                        android:id="@+id/add_imageview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_add_24"
+                        android:layout_weight="1"
+                        android:background="@drawable/button4"
+                        android:contentDescription="@string/todo" />
+
+                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/linearlayout_deletebutton">
+
+                    <Button
+                        android:id="@+id/delte_button"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:text="@string/delete"
+                        android:textSize="12dp"
+                        android:backgroundTint="@color/white"
+                        android:backgroundTintMode="screen"
+                        android:background="@drawable/button"
+                        android:textAllCaps="false"
+                        style="?android:attr/buttonBarButtonStyle" />
+
+                    <Button
+                        android:id="@+id/save_for_later_button"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:backgroundTint="@color/white"
+                        android:backgroundTintMode="screen"
+                        android:text="@string/save_for_later"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="20dp"
+                        android:textAllCaps="false"
+                        android:background="@drawable/button"
+                        style="?android:attr/buttonBarButtonStyle" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        <TextView
+            android:id="@+id/see_more_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative_layout_delete_button"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/see_more_like_this"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlayout_bar1"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:padding="10dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/light_gray2">
+        </View>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/linearlayout_bar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:id="@+id/linearlayout_partb">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayout_winebottle2"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/image2"
+                    android:layout_marginEnd="20dp"
+                    android:contentDescription="@string/todo" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/lexton_textview2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/handicrafts_decor_wooden_partitions_wood_room_divider_partition"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/lexton_textview2"
+                        android:id="@+id/linearlayout_winebottle_right2"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/wineprice_textview2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/_6_844_00"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/instock_textview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linearlayout_winebottle_right2"
+                        android:text="@string/usually_dispatched_in_4_to_5_days"
+                        android:textColor="#FFEA9B27"
+                        android:textColorLink="#EA9B27"
+                        android:textSize="12sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/instock_textview2"
+                        android:id="@+id/linearlayout_merchandizer2">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sold_by"
+                            android:textColor="@color/gray"
+                            android:id="@+id/sold_by2"
+                            android:textSize="12sp">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/merchandizer2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:text="@string/handicrafts_decor"
+                            android:textColor="#FF009688"
+                            android:textSize="12sp"></TextView>
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/relative_layout_delete_button2"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearlayout_deletebutton2"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/deletebutton_imageview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_baseline_delete_24"
+                        android:background="@drawable/button4"
+                        android:contentDescription="TODO" />
+
+
+                    <TextView
+                        android:id="@+id/textview_itemcount2"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1"
+                        android:textColor="@color/blue"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:layout_weight="2"
+                        android:background="@drawable/button3" />
+
+                    <ImageView
+                        android:id="@+id/add_imageview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_add_24"
+                        android:layout_weight="1"
+                        android:background="@drawable/button4"
+                        android:contentDescription="TODO" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@id/linearlayout_deletebutton2">
+
+                    <Button
+                        android:id="@+id/delte_button2"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:text="@string/delete"
+                        android:textSize="12sp"
+                        android:backgroundTint="@color/white"
+                        android:backgroundTintMode="screen"
+                        android:background="@drawable/button"
+                        android:textAllCaps="false"
+                        style="?android:attr/buttonBarButtonStyle" />
+
+                    <Button
+                        android:id="@+id/save_for_later_button2"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:backgroundTint="@color/white"
+                        android:backgroundTintMode="screen"
+                        android:text="@string/save_for_later"
+                        android:textSize="12sp"
+                        android:layout_marginStart="20dp"
+                        android:textAllCaps="false"
+                        android:background="@drawable/button"
+                        style="?android:attr/buttonBarButtonStyle" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearlayout_bar2"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="10dp">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/light_gray2">
+            </View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:id="@+id/linearlayout_partc">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayout_winebottle3"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/wine_bottle"
+                    android:layout_marginEnd="20dp"
+                    android:contentDescription="@string/todo" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/lexton_textview3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lexton_20_led_wine_bottle_cork_lights_copper_wire_string_lights"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/lexton_textview3"
+                        android:id="@+id/linearlayout_winebottle_right3"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/wineprice_textview3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/_199_00"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/textView33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/prime"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="15sp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_below="@+id/linearlayout_winebottle_right3"
+                        android:id="@+id/instock_textview3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/in_stock"
+                        android:textSize="15sp"
+                        android:textColor="@color/dark_green"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/relative_layout_delete_button3"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearlayout_deletebutton3"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/deletebutton_imageview3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_baseline_delete_24"
+                        android:background="@drawable/button4"
+                        android:contentDescription="@string/todo" />
+
+
+                    <TextView
+                        android:id="@+id/textview_itemcount3"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1"
+                        android:textColor="@color/blue"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:layout_weight="2"
+                        android:background="@drawable/button3" />
+
+                    <ImageView
+                        android:id="@+id/add_imageview3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_add_24"
+                        android:layout_weight="1"
+                        android:background="@drawable/button4"
+                        android:contentDescription="@string/todo" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@id/linearlayout_deletebutton3">
+
+                    <Button
+                        android:id="@+id/delte_button3"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:text="@string/delete"
+                        android:textSize="12sp"
+                        android:backgroundTint="@color/white"
+                        android:backgroundTintMode="screen"
+                        android:background="@drawable/button"
+                        android:textAllCaps="false"
+                        style="?android:attr/buttonBarButtonStyle" />
+
+                    <Button
+                        android:id="@+id/save_for_later_button3"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:backgroundTint="@color/white"
+                        android:backgroundTintMode="screen"
+                        android:text="@string/save_for_later"
+                        android:textSize="12sp"
+                        android:layout_marginStart="20dp"
+                        android:textAllCaps="false"
+                        android:background="@drawable/button"
+                        style="?android:attr/buttonBarButtonStyle" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/see_more_text_view3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100dp"
+                android:text="@string/see_more_like_this"
+                android:layout_marginStart="120dp"
+                android:textColor="@color/blue"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
