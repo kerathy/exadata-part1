@@ -9,16 +9,12 @@ public class Lookup {
 
         Scanner sc = new Scanner(System.in);
         int entries = sc.nextInt();
-//        System.out.println(entries);
         HashMap<String, String> map = new HashMap<>();
         for (int i = 0; i < entries; i++) {
             String name = sc.next();
-//            System.out.println(name);
             String phoneNumber = sc.nextLine().substring(1);
-//            System.out.println(phoneNumber);
             map.put(name, phoneNumber);
         }
-//        System.out.println(map);
         StringBuilder res = new StringBuilder();
         while (sc.hasNext()) {
             String name = sc.nextLine();
