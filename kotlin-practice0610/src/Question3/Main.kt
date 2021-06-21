@@ -22,6 +22,24 @@ fun main() {
         res.append(" ")
     }
     println(res.toString())
+
+
+//    val scanner = Scanner(System.`in`); val size = scanner.nextInt()
+//    val headVal = scanner.nextInt(); var head = Node(headVal)
+//
+//    val res = StringBuilder()
+//    res.append(getTailValue(head))
+//    res.append(" ")
+//
+//    var cur: Node? = head; val index = size - 2
+//    for (i in 0..index) {
+//        val newNode = Node(scanner.nextInt())
+//        cur?.next = newNode
+//        cur = cur?.next
+//        res.append(getTailValue(head))
+//        res.append(" ")
+//    }
+//    println(res.toString())
 }
 
 class Node {

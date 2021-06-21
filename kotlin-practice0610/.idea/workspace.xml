@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="419e1f65-a649-4e12-8507-fe940c4032f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Question3/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question3/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Question3/javasolution/InsertNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question3/javasolution/InsertNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Question3/javasolution/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question3/javasolution/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kotlin-practice0616/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-practice0616/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-practice0616/out/production/kotlin-practice0616/Question5/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-practice0616/out/production/kotlin-practice0616/Question5/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-practice0616/out/production/kotlin-practice0616/Question5/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-practice0616/out/production/kotlin-practice0616/Question5/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-practice0616/src/Question5/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-practice0616/src/Question5/Main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +19,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Question3/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#19#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -225,15 +238,16 @@
       <workItem from="1623857667919" duration="3359000" />
       <workItem from="1623897643024" duration="1730000" />
       <workItem from="1624225619625" duration="114000" />
-      <workItem from="1624226098226" duration="5155000" />
+      <workItem from="1624226098226" duration="6551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27790000" />
+    <option name="totallyTimeSpent" value="29186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="61" width="1440" height="755" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -291,16 +305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Question3/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#19#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Question2/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -326,6 +330,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Question3/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#19#68#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
