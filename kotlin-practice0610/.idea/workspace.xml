@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="419e1f65-a649-4e12-8507-fe940c4032f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Question2/Lookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question2/Lookup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Question2/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question2/Main.kt" afterDir="false" />
-    </list>
+    <list default="true" id="419e1f65-a649-4e12-8507-fe940c4032f8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Question2/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
@@ -62,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Question4/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="-53">
               <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
@@ -103,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="61" />
     <option name="width" value="1440" />
     <option name="height" value="755" />
@@ -279,18 +276,18 @@
       <workItem from="1623897643024" duration="1730000" />
       <workItem from="1624225619625" duration="114000" />
       <workItem from="1624226098226" duration="10321000" />
-      <workItem from="1624307255380" duration="1164000" />
+      <workItem from="1624307255380" duration="1823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34120000" />
+    <option name="totallyTimeSpent" value="34779000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="61" width="1440" height="755" extended-state="0" />
+    <frame x="0" y="61" width="1440" height="755" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -299,7 +296,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329653" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39905363" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,13 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Question4/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Question2/Lookup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -406,6 +396,13 @@
           <folding>
             <element signature="e#19#68#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Question4/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
