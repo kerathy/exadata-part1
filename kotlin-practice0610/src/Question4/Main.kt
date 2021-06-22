@@ -1,21 +1,5 @@
 package Question4
 
-import java.util.*
-
-//fun main() {
-//    val scanner = Scanner(System.`in`)
-//    val size = Integer.valueOf(scanner.nextLine())
-//    val arr = Array<Int?>(size) { null }
-//
-//    for (i in 1..size) {
-//        val input = scanner.nextInt()
-//        arr[i - 1] = input
-//    }
-//
-//    println("bubble sort")
-//    val len = arr.size - 1
-//}
-
 fun main(args: Array<String>) {
 
     val arrCount = readLine()!!.trim().toInt()

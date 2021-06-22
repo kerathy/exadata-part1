@@ -14,9 +14,9 @@ fun main(args: Array<String>) {
 
 
 abstract class Book {
-    var title: String = ""
-    var author: String = ""
-    var price = 0
+    var title: String? = null
+    var author: String? = null
+    var price: Int
 
     constructor(_title: String, _author: String, _price: Int) {
         title = _title
