@@ -12,8 +12,6 @@ public class AppViewModel extends BaseObservable {
 
     // string variables for
     // toast messages
-    private String successMessage = "Login successful";
-    private String errorMessage = "Email or Password is not valid";
 
     @Bindable
     // string variable for
@@ -32,23 +30,23 @@ public class AppViewModel extends BaseObservable {
     // getter and setter methods
     // for email varibale
     @Bindable
-    public String getUserEmail() {
+    public String getTextEmail() {
         return model.getEmail();
     }
 
-    public void setUserEmail(String email) {
+    public void setTextEmail(String email) {
         model.setEmail(email);
-        notifyPropertyChanged(BR.userEmail);
+        notifyPropertyChanged(BR.textEmail);
     }
 
     @Bindable
-    public String getUserPassword() {
+    public String getTextPassword() {
         return model.getPassword();
     }
 
-    public void setUserPassword(String password) {
+    public void setTextPassword(String password) {
         model.setPassword(password);
-        notifyPropertyChanged(BR.userPassword);
+        notifyPropertyChanged(BR.textPassword);
     }
 
 
@@ -62,16 +60,14 @@ public class AppViewModel extends BaseObservable {
     // actions to be performed
     // when user clicks
     // the LOGIN button
-    public void onButtonClicked() {
-        if (isValid())
-            setToastMessage(successMessage);
-        else
-            setToastMessage(errorMessage);
+    public void onclick() {
+        if (isValid()) setToastMessage("log in successfully");
+        else setToastMessage("email or username is invalid");
     }
 
     public boolean isValid() {
-        return !TextUtils.isEmpty(getUserEmail()) && Patterns.EMAIL_ADDRESS.matcher(getUserEmail()).matches()
-                && getUserPassword().length() > 5;
+        return !TextUtils.isEmpty(getTextEmail()) && Patterns.EMAIL_ADDRESS.matcher(getTextEmail()).matches()
+                && getTextPassword().length() > 5;
     }
 
 

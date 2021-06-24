@@ -6,7 +6,7 @@
     <!-- binding object of ViewModel to the XML layout -->
     <data>
         <variable
-            name="viewModel"
+            name="viewM"
             type="com.example.mvvmarchitecture.AppViewModel" />
     </data>
 
@@ -42,7 +42,7 @@
             android:hint="@string/email_hint"
             android:inputType="textEmailAddress"
             android:padding="8dp"
-            android:text="@={viewModel.userEmail}" />
+            android:text="@={viewM.textEmail}" />
 
         <!-- EditText field for the password -->
         <EditText
@@ -54,7 +54,7 @@
             android:hint="@string/password_hint"
             android:inputType="textPassword"
             android:padding="8dp"
-            android:text="@={viewModel.userPassword}" />
+            android:text="@={viewM.textPassword}" />
 
         <!-- Login Button of the activity -->
         <Button
@@ -64,19 +64,19 @@
             android:layout_marginTop="60dp"
             android:layout_marginEnd="20dp"
             android:background="#4CAF50"
-            android:onClick="@{()-> viewModel.onButtonClicked()}"
+            android:onClick="@{()-> viewM.onclick()}"
             android:text="@string/button_text"
             android:textColor="@android:color/background_light"
             android:textSize="30sp"
             android:textStyle="bold"
-            bind:toastMessage="@{viewModel.toastMessage}" />
+            bind:toastM="@{viewM.toastMessage}" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            app:srcCompat="@drawable/ic_baseline_add_circle_outline_24" />
+            app:srcCompat="@drawable/puppies" />
 
     </LinearLayout>
 </layout>

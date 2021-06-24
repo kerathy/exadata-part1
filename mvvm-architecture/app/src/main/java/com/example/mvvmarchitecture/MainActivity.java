@@ -18,13 +18,15 @@ public class MainActivity extends AppCompatActivity {
 
 
         ActivityMainBinding activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
-        activityMainBinding.setViewModel(new AppViewModel());
+        activityMainBinding.setViewM(new AppViewModel());
         activityMainBinding.executePendingBindings();
     }
 
-    @BindingAdapter({"toastMessage"})
-    public static void runMe(View view, String message) {
-        if (message != null)
+    @BindingAdapter({"toastM"})
+    public static void messageChanged(View view, String message) {
+        if (message != null) {
             Toast.makeText(view.getContext(), message, Toast.LENGTH_SHORT).show();
+        }
+
     }
 }

@@ -2,7 +2,8 @@ package com.example.mvvmarchitecture;
 
 public class Model {
 
-    String email, password;
+    private String email;
+    private String password;
 
     public Model(String email, String password) {
         this.email = email;
