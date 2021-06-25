@@ -15,7 +15,7 @@ public class TextViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text_view);
 
-        textView = findViewById(R.id.textView);
+        textView = findViewById(R.id.textView2);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

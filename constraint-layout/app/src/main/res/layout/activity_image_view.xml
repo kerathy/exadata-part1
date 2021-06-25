@@ -7,20 +7,30 @@
     tools:context=".ImageViewActivity">
 
 
-
-
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
 
+        android:contentDescription="@string/to_button_acitivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.58"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:contentDescription="@string/to_button_acitivity"/>
+        app:layout_constraintVertical_bias="0.599"
+        app:srcCompat="@drawable/ic_baseline_radio_button_checked_24" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="448dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="224dp"
+        android:text="click the following button to the button constraint layout page"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
