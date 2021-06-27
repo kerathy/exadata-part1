@@ -38,27 +38,57 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+    }
+
+
+
+
+
+    private void setReceiver() {
         myBroadCastReceiver = new MyBroadCastReceiver();
         IntentFilter intentFilter = new IntentFilter("transition_broadcast");
         LocalBroadcastManager.getInstance(this).registerReceiver(myBroadCastReceiver, intentFilter);
     }
 
-    class MyBroadCastReceiver extends BroadcastReceiver {
-
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            if (intent.getAction().equals("transition_broadcast")) {
-                String type = intent.getStringExtra("action");
-                textView.setText(type);
-            } else {
-                Toast.makeText(context, "Action Not Found", Toast.LENGTH_LONG).show();
-            }
-        }
+    @Override
+    protected void onStart() {
+        setReceiver();
+        super.onStart();
     }
 
     @Override
-    protected void onDestroy() {
-        LocalBroadcastManager.getInstance(this).unregisterReceiver(myBroadCastReceiver);
-        super.onDestroy();
+    protected void onStop() {
+        unregisterReceiver(myBroadCastReceiver);
+        super.onStop();
     }
+
+    private class MyBroadCastReceiver extends BroadcastReceiver {
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String message = intent.getStringExtra("action");
+            textView.setText("geofenceintentservice type: " + message);
+        }
+    }
+
+    //    @Override
+//    protected void onDestroy() {
+//        LocalBroadcastManager.getInstance(this).unregisterReceiver(myBroadCastReceiver);
+//        super.onDestroy();
+//    }
+
+
+    //    private class MyBroadCastReceiver extends BroadcastReceiver {
+//
+//        @Override
+//        public void onReceive(Context context, Intent intent) {
+//            if (intent.getAction().equals("transition_broadcast")) {
+//                String type = intent.getStringExtra("action");
+//                textView.setText(type);
+//            } else {
+//                Toast.makeText(context, "Action Not Found", Toast.LENGTH_LONG).show();
+//            }
+//        }
+//    }
 }
