@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="419e1f65-a649-4e12-8507-fe940c4032f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Question4/Question4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Question1/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question1/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Question4/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question4/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BroadCastReceiver/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BroadCastReceiver/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BroadCastReceiver/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BroadCastReceiver/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../geo-fence-intent-service/app/src/main/java/com/example/geofenceintentservicepractice/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../geo-fence-intent-service/app/src/main/java/com/example/geofenceintentservicepractice/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../live-data-view-model/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../live-data-view-model/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvvm-architecture2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mvvm-architecture2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/puppies.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/puppies.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../retrofit2-with-android-using-kotlin/app/src/main/java/com/example/retrofit2withandroidusingkotlin/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../retrofit2-with-android-using-kotlin/app/src/main/java/com/example/retrofit2withandroidusingkotlin/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../srs-project/app/src/main/java/com/example/srsproject/FingerPrintRecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../srs-project/app/src/main/java/com/example/srsproject/FingerPrintRecognition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../srs-project/app/src/main/java/com/example/srsproject/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../srs-project/app/src/main/java/com/example/srsproject/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../srs-project/app/src/main/res/drawable/button.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../srs-project/app/src/main/res/drawable/button.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../srs-project/app/src/main/res/drawable/round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../srs-project/app/src/main/res/drawable/round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../srs-project/app/src/main/res/layout/activity_finger_print_recognition.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../srs-project/app/src/main/res/layout/activity_finger_print_recognition.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../srs-project/app/src/main/res/layout/activity_reservation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../srs-project/app/src/main/res/layout/activity_reservation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../srs-project/app/src/main/res/layout/current_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../srs-project/app/src/main/res/layout/current_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../srs-project/app/src/main/res/layout/default_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../srs-project/app/src/main/res/layout/default_view.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +29,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Question1/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="16" selection-start-line="16" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,6 +84,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,7 +132,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,16 +250,18 @@
       <workItem from="1624226098226" duration="10321000" />
       <workItem from="1624307255380" duration="2097000" />
       <workItem from="1624320651695" duration="1806000" />
+      <workItem from="1624844568094" duration="860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36859000" />
+    <option name="totallyTimeSpent" value="37719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="61" width="1440" height="755" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -339,13 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Question1/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Question3/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-659">
@@ -370,6 +386,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Question1/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="16" selection-start-line="16" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>

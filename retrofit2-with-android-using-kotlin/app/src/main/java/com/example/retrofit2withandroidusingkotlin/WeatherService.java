@@ -1,2 +1,4 @@
-package com.example.retrofit2withandroidusingkotlin;public interface WeatherService {
+package com.example.retrofit2withandroidusingkotlin;
+
+public interface WeatherService {
 }

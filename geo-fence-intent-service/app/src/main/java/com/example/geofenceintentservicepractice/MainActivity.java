@@ -42,9 +42,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
-
     private void setReceiver() {
         myBroadCastReceiver = new MyBroadCastReceiver();
         IntentFilter intentFilter = new IntentFilter("transition_broadcast");

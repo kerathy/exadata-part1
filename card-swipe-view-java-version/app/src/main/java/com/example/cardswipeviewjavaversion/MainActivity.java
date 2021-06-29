@@ -23,12 +23,13 @@ public class MainActivity extends AppCompatActivity {
         sliderDotspanel = findViewById(R.id.slider_dots);
 
         models = new ArrayList<>();
-        String[] titles = {"Dobby", "Kitto", "Cozmo", "Tiger", "Husky", "Cat"};
-        String[] descs = {"Dog", "Cat", "Lambardor", "German Shepherd", "Husky", "Unknown"};
 
-        for (int i = 0; i < titles.length; i++) {
-            models.add(new PetsModel(R.drawable.dummy_image, titles[i], descs[i]));
-        }
+        models.add(new PetsModel(R.drawable.dummy_image, "Dobby", "Dog"));
+        models.add(new PetsModel(R.drawable.dummy_image, "Kitto", "Cat"));
+        models.add(new PetsModel(R.drawable.dummy_image, "Cozmo", "Lambardor"));
+        models.add(new PetsModel(R.drawable.dummy_image, "Tiger", "German Shepherd"));
+        models.add(new PetsModel(R.drawable.dummy_image, "Husky", "Husky"));
+        models.add(new PetsModel(R.drawable.dummy_image, "Cat", "Unknown"));
 
         petAdapter = new PetAdapter(models, MainActivity.this);
         viewPager.setAdapter(petAdapter);
