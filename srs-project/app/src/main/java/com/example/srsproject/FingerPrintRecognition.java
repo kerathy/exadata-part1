@@ -2,7 +2,6 @@ package com.example.srsproject;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.biometric.BiometricManager;
 import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
@@ -29,8 +28,6 @@ public class FingerPrintRecognition extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_finger_print_recognition);
-
-//        getSupportActionBar().hide();
 
         imageView = findViewById(R.id.finger_print);
         executor = ContextCompat.getMainExecutor(this);

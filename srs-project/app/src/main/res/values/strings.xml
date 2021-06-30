@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">SRSProject</string>
+
+    <string-array name="titles">
+        <item>Miss</item>
+        <item>Mr</item>
+        <item>Mrs</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>United States</item>
+        <item>UK</item>
+        <item>China</item>
+    </string-array>
 </resources>
