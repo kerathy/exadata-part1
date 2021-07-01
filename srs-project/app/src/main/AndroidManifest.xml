@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SRSProject"
         tools:replace="android:theme">
-        <activity android:name=".GuestInformation"></activity>
+        <activity android:name=".ui.guestinfo.GuestInformation"></activity>
         <activity android:name=".Reservation" />
         <activity android:name=".FingerPrintRecognition" />
         <activity android:name=".MainActivity">
