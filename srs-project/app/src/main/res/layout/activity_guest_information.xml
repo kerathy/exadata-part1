@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
-
-    <data>
-        <variable
-            name="guestViewModel"
-            type="com.example.srsproject.ui.guestinfo.GuestViewModel" />
-
-
-
-    </data>
-
-<ScrollView
-    android:id="@+id/scrollview"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.guestinfo.GuestInformation"
+    tools:context=".GuestInformation"
     android:padding="10dp">
 
 
@@ -96,7 +83,6 @@
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:textSize="8sp"
-
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/title_textview"
@@ -182,7 +168,6 @@
                     android:background="@drawable/button2"
                     android:inputType="textEmailAddress"
                     android:textSize="12sp"
-                    android:text="@={guestViewModel.textEmail}"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/textview_emailaddress"
@@ -562,7 +547,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Submit"
-                    android:onClick="@{guestViewModel.onSubmitButtonClick}"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -575,6 +559,11 @@
 
     </RelativeLayout>
 
-</ScrollView>
 
-</layout>
+
+
+
+
+
+
+</ScrollView>

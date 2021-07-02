@@ -1,14 +1,11 @@
-package com.example.srsproject.ui.roombooking;
+package com.example.srsproject;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.srsproject.ui.roombooking.*;
-
-import android.os.Bundle;
-
-import com.example.srsproject.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,9 +32,9 @@ public class RoomBooking extends AppCompatActivity {
     }
 
     public void addData() {
-        hotelsList.add(new HotelModel(2, 330));
-        hotelsList.add(new HotelModel(3, 540));
-        hotelsList.add(new HotelModel(5, 1000));
+        hotelsList.add(new HotelModel(2, 330, R.drawable.room_image1));
+        hotelsList.add(new HotelModel(3, 540, R.drawable.room_image2));
+        hotelsList.add(new HotelModel(5, 1000, R.drawable.room_image3));
         hotelAdapter.notifyDataSetChanged();
     }
 }

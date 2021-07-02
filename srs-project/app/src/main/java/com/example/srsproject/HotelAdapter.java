@@ -1,14 +1,15 @@
-package com.example.srsproject.ui.roombooking;
+package com.example.srsproject;
 
+import android.annotation.SuppressLint;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.example.srsproject.R;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -30,10 +31,12 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.MyViewHolder
         return new MyViewHolder(view);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void onBindViewHolder(@NonNull @NotNull MyViewHolder holder, int position) {
-        holder.availableRoom.setText("1");
-        holder.price.setText("2");
+        holder.availableRoom.setText(hotelsList.get(position).getAvailableRooms() + "");
+        holder.price.setText(hotelsList.get(position).getPrice() + "");
+        holder.relativeLayout.setBackgroundResource(hotelsList.get(position).getResid());
     }
 
     @Override
@@ -41,16 +44,16 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.MyViewHolder
         return hotelsList.size();
     }
 
-    class MyViewHolder extends RecyclerView.ViewHolder {
+    static class MyViewHolder extends RecyclerView.ViewHolder {
         TextView availableRoom;
         TextView price;
-
+        RelativeLayout relativeLayout;
 
         public MyViewHolder(@NonNull @NotNull View itemView) {
             super(itemView);
             availableRoom = itemView.findViewById(R.id.available_room);
             price = itemView.findViewById(R.id.price);
-
+            relativeLayout = itemView.findViewById(R.id.relative_layout);
         }
     }
 }

@@ -4,7 +4,7 @@
     package="com.example.srsproject">
 
     <uses-permission android:name="android.permission.USE_BIOMETRIC" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application xmlns:tools="http://schemas.android.com/tools"
         android:allowBackup="true"
@@ -14,7 +14,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SRSProject"
         tools:replace="android:theme">
-        <activity android:name=".ui.guestinfo.GuestInformation"></activity>
+        <activity android:name=".RoomBooking"></activity>
+        <activity android:name=".Manager" />
+        <activity android:name=".BookedRoomEditing" />
+        <activity android:name=".BookedRoom" />
+        <activity android:name=".GuestInformation" />
         <activity android:name=".Reservation" />
         <activity android:name=".FingerPrintRecognition" />
         <activity android:name=".MainActivity">
