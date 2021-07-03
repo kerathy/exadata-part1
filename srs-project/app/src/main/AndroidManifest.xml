@@ -18,7 +18,7 @@
         <activity android:name=".Manager" />
         <activity android:name=".BookedRoomEditing" />
         <activity android:name=".BookedRoom" />
-        <activity android:name=".GuestInformation" />
+        <activity android:name=".guest.GuestInformation" />
         <activity android:name=".Reservation" />
         <activity android:name=".FingerPrintRecognition" />
         <activity android:name=".MainActivity">

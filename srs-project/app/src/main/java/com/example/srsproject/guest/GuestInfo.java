@@ -1,4 +1,4 @@
-package com.example.srsproject;
+package com.example.srsproject.guest;
 
 public class GuestInfo {
 

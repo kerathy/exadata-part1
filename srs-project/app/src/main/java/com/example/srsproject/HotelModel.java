@@ -1,9 +1,8 @@
 package com.example.srsproject;
 
-import android.graphics.drawable.Drawable;
-
 public class HotelModel {
 
+    private Integer id;
     private int availableRooms;
     private int price;
     private int resid;
@@ -12,6 +11,14 @@ public class HotelModel {
         this.availableRooms = availableRooms;
         this.price = price;
         this.resid = resid;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public int getAvailableRooms() {

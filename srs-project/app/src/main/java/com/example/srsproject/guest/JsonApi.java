@@ -1,4 +1,6 @@
-package com.example.srsproject;
+package com.example.srsproject.guest;
+
+import com.example.srsproject.guest.GuestInfo;
 
 import java.util.Map;
 

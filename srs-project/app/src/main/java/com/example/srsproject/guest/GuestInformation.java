@@ -1,4 +1,4 @@
-package com.example.srsproject;
+package com.example.srsproject.guest;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,6 +15,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 
+import com.example.srsproject.R;
+import com.example.srsproject.RoomBooking;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -106,6 +108,11 @@ public class GuestInformation extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
 
+//        Retrofit retrofit = new Retrofit.Builder()
+//                .baseUrl("http://localhost:3000/")
+//                .addConverterFactory(GsonConverterFactory.create(gson))
+//                .build();
+
         jsonApi = retrofit.create(JsonApi.class);
 
         editTextFirstName = findViewById(R.id.edittext_firstname);
@@ -129,16 +136,18 @@ public class GuestInformation extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 createGuestInfo();
-            }
-        });
-
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
                 startActivity(new Intent(GuestInformation.this, RoomBooking.class));
                 finish();
             }
-        }, 1000);
+        });
+//
+//        new Handler().postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                startActivity(new Intent(GuestInformation.this, RoomBooking.class));
+//                finish();
+//            }
+//        }, 1000);
 
     }
 
