@@ -83,10 +83,6 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.MyViewHolder
                             .addConverterFactory(GsonConverterFactory.create(gson))
                             .build();
 
-//                    Retrofit retrofit = new Retrofit.Builder()
-//                            .baseUrl("http://localhost:3000/")
-//                            .addConverterFactory(GsonConverterFactory.create(gson))
-//                            .build();
                     hotelApi = retrofit.create(HotelApi.class);
 
                     create();

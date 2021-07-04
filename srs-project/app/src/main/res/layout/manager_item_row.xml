@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_margin="2dp">
-
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/relative_layout"
-        android:background="@drawable/room_image1">
+        android:background="@drawable/employees">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -26,21 +25,14 @@
                 android:id="@+id/relativelayout_1"
                 android:orientation="horizontal"
                 android:layout_margin="1dp">
-                <ImageView
-                    android:id="@+id/imageview_bed"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    app:srcCompat="@drawable/bed_image">
-
-                </ImageView>
                 <TextView
-                    android:id="@+id/available_room"
+                    android:id="@+id/textview_nametitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
+                    android:text="Name"
                     android:textColor="@color/white"
-                    android:textSize="15sp"
-                    android:layout_toRightOf="@+id/imageview_bed">
+                    android:textSize="15sp">
                 </TextView>
 
             </RelativeLayout>
@@ -52,28 +44,20 @@
                 android:id="@+id/relativelayout_2"
                 android:layout_below="@id/relativelayout_1"
                 android:layout_margin="1dp">
-                <ImageView
-                    android:id="@+id/imageview_price"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    app:srcCompat="@drawable/price_image">
-
-                </ImageView>
                 <TextView
-                    android:id="@+id/price"
+                    android:id="@+id/textview_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
                     android:textSize="15sp"
                     android:textColor="@color/white"
-                    android:layout_toRightOf="@id/imageview_price">
+                    android:text="Samir Ali">
                 </TextView>
 
             </RelativeLayout>
         </RelativeLayout>
 
         <TextView
-            android:id="@+id/textview_book"
+            android:id="@+id/textview_paysalary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -81,10 +65,10 @@
             android:layout_margin="5dp"
             android:textSize="17sp"
             android:textStyle="bold"
-            android:text="Book" />
+            android:textColor="@color/white"
+            android:text="PAY SALARY" />
 
 
     </RelativeLayout>
-
 
 </androidx.cardview.widget.CardView>

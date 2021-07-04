@@ -108,11 +108,6 @@ public class GuestInformation extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
 
-//        Retrofit retrofit = new Retrofit.Builder()
-//                .baseUrl("http://localhost:3000/")
-//                .addConverterFactory(GsonConverterFactory.create(gson))
-//                .build();
-
         jsonApi = retrofit.create(JsonApi.class);
 
         editTextFirstName = findViewById(R.id.edittext_firstname);
@@ -140,14 +135,6 @@ public class GuestInformation extends AppCompatActivity {
                 finish();
             }
         });
-//
-//        new Handler().postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                startActivity(new Intent(GuestInformation.this, RoomBooking.class));
-//                finish();
-//            }
-//        }, 1000);
 
     }
 

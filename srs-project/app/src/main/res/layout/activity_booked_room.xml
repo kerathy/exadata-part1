@@ -1,89 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="150dp"
-    android:layout_margin="5dp"
-    tools:context=".BookedRoom">
+    android:layout_height="match_parent"
+    tools:context=".BookedRoom"
+    android:layout_margin="5dp">
 
-    <RelativeLayout
+    <ImageView
+        android:id="@+id/imageview_clock"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/relative_layout"
-        android:background="@drawable/room_image1">
-
+        android:layout_height="130dp"
+        android:src="@drawable/clock2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.cardview.widget.CardView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/imageview_clock">
         <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true"
-            android:layout_margin="5dp">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relative_layout"
+            android:background="@drawable/room_image1">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/relativelayout_1"
-                android:orientation="horizontal"
-                android:layout_margin="2dp">
-                <ImageView
-                    android:id="@+id/imageview_bed"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    app:srcCompat="@drawable/bed_image">
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp">
 
-                </ImageView>
-                <TextView
-                    android:id="@+id/available_room"
+                <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:textSize="15sp"
-                    android:layout_toRightOf="@+id/imageview_bed">
-                </TextView>
+                    android:id="@+id/relativelayout_1"
+                    android:orientation="horizontal"
+                    android:layout_margin="2dp">
+                    <ImageView
+                        android:id="@+id/imageview_bed"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/bed_image">
 
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/available_room"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:layout_toRightOf="@+id/imageview_bed">
+                    </TextView>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/relativelayout_2"
+                    android:layout_below="@id/relativelayout_1"
+                    android:layout_margin="2dp">
+                    <ImageView
+                        android:id="@+id/imageview_price"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/price_image">
+
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"
+                        android:layout_toRightOf="@id/imageview_price">
+                    </TextView>
+
+                </RelativeLayout>
             </RelativeLayout>
 
-            <RelativeLayout
+            <TextView
+                android:id="@+id/textview_book"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:id="@+id/relativelayout_2"
-                android:layout_below="@id/relativelayout_1"
-                android:layout_margin="2dp">
-                <ImageView
-                    android:id="@+id/imageview_price"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    app:srcCompat="@drawable/price_image">
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="5dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:text="Book" />
 
-                </ImageView>
-                <TextView
-                    android:id="@+id/price"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:textColor="@color/white"
-                    android:layout_toRightOf="@id/imageview_price">
-                </TextView>
 
-            </RelativeLayout>
         </RelativeLayout>
+    </androidx.cardview.widget.CardView>
 
-        <TextView
-            android:id="@+id/textview_book"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_margin="5dp"
-            android:textSize="17sp"
-            android:textStyle="bold"
-            android:text="Book" />
-
-
-    </RelativeLayout>
-</androidx.cardview.widget.CardView>
+</RelativeLayout>

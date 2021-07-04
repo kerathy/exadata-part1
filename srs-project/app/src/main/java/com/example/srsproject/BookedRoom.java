@@ -37,13 +37,8 @@ public class BookedRoom extends AppCompatActivity {
         setContentView(R.layout.activity_booked_room);
 
         Gson gson = new GsonBuilder().serializeNulls().create();
-//        Retrofit retrofit = new Retrofit.Builder()
-//                .baseUrl("https://jsonplaceholder.typicode.com/")
-//                .addConverterFactory(GsonConverterFactory.create(gson))
-//                .build();
-
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://localhost:3000/")
+                .baseUrl("https://jsonplaceholder.typicode.com/")
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
 
@@ -63,17 +58,15 @@ public class BookedRoom extends AppCompatActivity {
             public void run() {
                 startActivity(new Intent(BookedRoom.this, BookedRoomEditing.class));
             }
-        }, 1000);
+        }, 5000);
     }
 
     private void getRecords() {
         Call<List<HotelModel>> records = hotelApi.getRecords();
-        System.out.println("print getRecords");
 
         records.enqueue(new Callback<List<HotelModel>>() {
             @Override
             public void onResponse(Call<List<HotelModel>> call, Response<List<HotelModel>> response) {
-                System.out.println("print getRecords on response");
                 if (!response.isSuccessful()) {
                     System.out.println("code: " + response.code());
                     return;
@@ -81,7 +74,6 @@ public class BookedRoom extends AppCompatActivity {
 
                 List<HotelModel> records = response.body();
                 for (HotelModel hotelModel : records) {
-                    System.out.println("print getRecords record");
                     String content = "id: " + hotelModel.getId() + "\n"
                             + "availableRooms: " + hotelModel.getAvailableRooms() + "\n"
                             + "price: "  + hotelModel.getPrice() + "\n"

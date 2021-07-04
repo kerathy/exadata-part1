@@ -39,7 +39,6 @@ public class RoomBooking extends AppCompatActivity {
         hotelsList.add(new HotelModel(2, 330, R.drawable.room_image1));
         hotelsList.add(new HotelModel(3, 540, R.drawable.room_image2));
         hotelsList.add(new HotelModel(5, 1000, R.drawable.room_image3));
-        hotelsList.add(new HotelModel(0, 0, R.drawable.room_image3));
         hotelAdapter.notifyDataSetChanged();
     }
 }
