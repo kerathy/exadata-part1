@@ -13,10 +13,6 @@ import retrofit2.http.POST;
 
 public interface HotelApi {
 
-
-    @GET("records")
-    Call<List<HotelModel>> getRecords();
-
     @FormUrlEncoded
     @POST("posts")
     Call<HotelModel> createRecord(@FieldMap Map<String, String> fields);
