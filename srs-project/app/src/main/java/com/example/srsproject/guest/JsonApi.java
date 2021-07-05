@@ -1,9 +1,6 @@
 package com.example.srsproject.guest;
 
-import com.example.srsproject.guest.GuestInfo;
-
 import java.util.Map;
-
 import retrofit2.Call;
 import retrofit2.http.FieldMap;
 import retrofit2.http.FormUrlEncoded;

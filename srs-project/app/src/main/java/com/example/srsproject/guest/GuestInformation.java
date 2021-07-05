@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -16,7 +15,7 @@ import android.widget.RadioGroup;
 import android.widget.Spinner;
 
 import com.example.srsproject.R;
-import com.example.srsproject.RoomBooking;
+import com.example.srsproject.room.RoomBooking;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

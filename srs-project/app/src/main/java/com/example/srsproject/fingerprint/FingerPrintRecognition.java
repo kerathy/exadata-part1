@@ -1,4 +1,4 @@
-package com.example.srsproject;
+package com.example.srsproject.fingerprint;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,12 +13,14 @@ import android.widget.Toast;
 
 import androidx.biometric.BiometricPrompt;
 
+import com.example.srsproject.R;
+import com.example.srsproject.calendar.Reservation;
+
 import java.util.concurrent.Executor;
 
 public class FingerPrintRecognition extends AppCompatActivity {
 
     private ImageView imageView;
-
     private Executor executor;
     private BiometricPrompt biometricPrompt;
     private BiometricPrompt.PromptInfo promptInfo;

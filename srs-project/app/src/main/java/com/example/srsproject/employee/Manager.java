@@ -1,28 +1,26 @@
-package com.example.srsproject;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
+package com.example.srsproject.employee;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.os.Bundle;
+
+import com.example.srsproject.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RoomBooking extends AppCompatActivity {
+public class Manager extends AppCompatActivity {
 
-    private List<HotelModel> hotelsList = new ArrayList<>();
-    private HotelAdapter hotelAdapter = new HotelAdapter(hotelsList);
+    private List<EmployeeModel> employeesList = new ArrayList<>();
+    private EmployeeAdapter employeeAdapter = new EmployeeAdapter(employeesList);
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_room_booking);
+        setContentView(R.layout.activity_manager);
 
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
@@ -30,15 +28,14 @@ public class RoomBooking extends AppCompatActivity {
 
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.setAdapter(hotelAdapter);
+        recyclerView.setAdapter(employeeAdapter);
 
         addData();
     }
 
-    public void addData() {
-        hotelsList.add(new HotelModel(2, 330, R.drawable.room_image1));
-        hotelsList.add(new HotelModel(3, 540, R.drawable.room_image2));
-        hotelsList.add(new HotelModel(5, 1000, R.drawable.room_image3));
-        hotelAdapter.notifyDataSetChanged();
+    private void addData() {
+        employeesList.add(new EmployeeModel("Samir Ali"));
+        employeesList.add(new EmployeeModel("Alaa alaa"));
+        employeesList.add(new EmployeeModel("Rana abdo"));
     }
 }

@@ -1,7 +1,6 @@
-package com.example.srsproject;
+package com.example.srsproject.calendar;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.cepheuen.elegantnumberbutton.view.ElegantNumberButton;
+import com.example.srsproject.R;
 import com.example.srsproject.guest.GuestInformation;
 import com.squareup.timessquare.CalendarPickerView;
 

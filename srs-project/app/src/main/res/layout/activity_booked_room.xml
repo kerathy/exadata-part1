@@ -5,14 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BookedRoom"
+    tools:context=".room.BookedRoom"
     android:layout_margin="5dp">
 
     <ImageView
         android:id="@+id/imageview_clock"
         android:layout_width="match_parent"
         android:layout_height="130dp"
-        android:src="@drawable/clock2"
+        android:src="@drawable/title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

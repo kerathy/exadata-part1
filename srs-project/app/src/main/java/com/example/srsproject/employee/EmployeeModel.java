@@ -1,4 +1,4 @@
-package com.example.srsproject;
+package com.example.srsproject.employee;
 
 public class EmployeeModel {
 

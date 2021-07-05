@@ -1,10 +1,10 @@
 package com.example.srsproject;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import com.example.srsproject.fingerprint.FingerPrintRecognition;
 
 public class MainActivity extends AppCompatActivity {
 

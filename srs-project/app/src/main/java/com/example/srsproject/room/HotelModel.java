@@ -1,4 +1,4 @@
-package com.example.srsproject;
+package com.example.srsproject.room;
 
 public class HotelModel {
 
