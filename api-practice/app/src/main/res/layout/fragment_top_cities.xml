@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.TopCitiesFragment"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_apikey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Input Your Apikey"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/edittext_apikey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_below = "@+id/textview_apikey"
+            android:ems="10"
+            android:hint="Apikey" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Click to Get Top 50 Cities' Information"
+            android:textAllCaps="false" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycler_view">
+        </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
