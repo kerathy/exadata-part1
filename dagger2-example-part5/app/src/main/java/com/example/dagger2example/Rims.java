@@ -1,2 +1,4 @@
-package com.example.dagger2example;public class Rims {
+package com.example.dagger2example;
+
+public class Rims {
 }
