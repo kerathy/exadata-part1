@@ -1,2 +1,19 @@
-package com.example.dagger2example;public interface CarComponent {
+package com.example.dagger2example;
+
+import dagger.Component;
+
+//@Component
+//public interface CarComponent {
+//
+//    Car getCar();
+//}
+
+
+
+//field injection
+
+@Component
+public interface CarComponent {
+    Car getCar();
+    void inject(MainActivity mainActivity);
 }
