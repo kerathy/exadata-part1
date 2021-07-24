@@ -17,12 +17,10 @@ public class MyApp extends Application {
                 .netModule(new NetModule("https://api.github.com"))
                 .build();
 
-        // If a Dagger 2 component does not have any constructor arguments for any of its modules,
-        // then we can use .create() as a shortcut instead:
-        //  mAppComponent = com.codepath.dagger.components.DaggerAppComponent.create();
     }
 
     public AppComponent getAppComponent() {
+        System.out.println("print: AppComponent");
         return mAppComponent;
     }
 

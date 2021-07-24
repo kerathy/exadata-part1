@@ -54,6 +54,7 @@ public class NetModule {
     OkHttpClient provideOkHttpClient(Cache cache) {
         OkHttpClient.Builder client = new OkHttpClient.Builder();
         client.cache(cache);
+        System.out.println("print: provideOkHttpClient");
         return client.build();
     }
 
