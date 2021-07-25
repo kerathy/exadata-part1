@@ -6,7 +6,6 @@ import android.preference.PreferenceManager;
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-
 import javax.inject.Named;
 import javax.inject.Singleton;
 import dagger.Module;
@@ -56,12 +55,14 @@ public class NetModule {
     OkHttpClient provideOkHttpClient(Cache cache) {
         OkHttpClient.Builder client = new OkHttpClient.Builder();
         client.cache(cache);
+        System.out.println("print: provideOkHttpClient: cached");
         return client.build();
     }
 
     @Provides @Named("non_cached") @Singleton
     OkHttpClient provideOkHttpClient2() {
         OkHttpClient client = new OkHttpClient();
+        System.out.println("print: provideOkHttpClient: non_cached");
         return client;
     }
 
