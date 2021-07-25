@@ -1,0 +1,2 @@
+rootProject.name = "DependencyInjectionWithDagger2"
+include ':app'
