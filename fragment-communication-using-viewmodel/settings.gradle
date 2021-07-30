@@ -1,0 +1,2 @@
+rootProject.name = "FragmentCommunicationUsingViewModel"
+include ':app'
