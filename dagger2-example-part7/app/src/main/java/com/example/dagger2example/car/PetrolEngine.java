@@ -4,16 +4,17 @@ import android.util.Log;
 
 import javax.inject.Inject;
 
-public class PetrolEngine implements Engine{
+public class PetrolEngine implements Engine {
 
-    private static final String TAG = "Car";
+    private static final String TAG = "Print: PetrolEngine";
 
     @Inject
     public PetrolEngine() {
+
     }
 
     @Override
     public void start() {
-        Log.d(TAG, "PetrolEngine started");
+        Log.d(TAG, "start: Petrol Engine started");
     }
 }

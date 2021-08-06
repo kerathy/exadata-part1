@@ -4,7 +4,7 @@ import android.util.Log;
 
 public class Tires {
 
-    private static final String TAG = "Car";
+    private static final String TAG = "Print: Car";
 
     public void inflate() {
         Log.d(TAG, "Tires: inflate method");

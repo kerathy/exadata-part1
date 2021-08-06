@@ -4,9 +4,10 @@ import android.util.Log;
 
 import javax.inject.Inject;
 
-public class DieselEngine implements Engine{
+public class DieselEngine implements Engine {
 
-    private static final String TAG = "Car";
+    private static final String TAG = "Print: DieselEngine";
+
     private int horsePower;
 
     public DieselEngine(int horsePower) {
@@ -15,6 +16,6 @@ public class DieselEngine implements Engine{
 
     @Override
     public void start() {
-        Log.d(TAG, "DieselEngine started; horsePower: " + horsePower);
+        Log.d(TAG, "start: Diesel Engine started, the value of horsePower: " + horsePower);
     }
 }

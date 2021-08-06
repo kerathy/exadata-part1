@@ -6,7 +6,7 @@ import javax.inject.Inject;
 
 public class Remote {
 
-    private static final String TAG = "Remote";
+    private static final String TAG = "Print: Remote";
 
     @Inject
     public Remote() {
