@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FusedLocationAPI</string>
+    <string name="enable_gps">enable_gps</string>
+    <string name="required_for_this_app">required_for_this_app</string>
+    <string name="enable_now">enable_now</string>
+    <string name="location_permission_not_granted">location_permission_not_granted</string>
+    <string name="default_lat">default_lat</string>
+    <string name="default_lng">default_lng</string>
+</resources>

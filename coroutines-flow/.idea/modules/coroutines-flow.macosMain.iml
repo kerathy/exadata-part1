@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="Native (macos_x64) " allPlatforms="Native []/Native [macos_x64]" useProjectSettings="false" isTestModule="false" externalProjectId="coroutines-flow">
+        <dependsOnModuleNames>coroutines-flow:commonMain</dependsOnModuleNames>
+        <sourceSets>
+          <sourceSet>coroutines-flow.commonMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <externalSystemTestTasks>
+          <externalSystemNativeMainRunTask>runDebugExecutableMacos|coroutines-flow:macosMain|macos|sample.main|true</externalSystemNativeMainRunTask>
+          <externalSystemNativeMainRunTask>runReleaseExecutableMacos|coroutines-flow:macosMain|macos|sample.main|false</externalSystemNativeMainRunTask>
+        </externalSystemTestTasks>
+        <compilerSettings />
+        <compilerArguments>
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>
