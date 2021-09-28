@@ -1,0 +1,13 @@
+package com.example.unittestexample2;
+
+public interface Stack<E> {
+
+    void push(E e);
+
+    E pop();
+
+    E peek();
+
+    boolean isEmpty();
+
+}
