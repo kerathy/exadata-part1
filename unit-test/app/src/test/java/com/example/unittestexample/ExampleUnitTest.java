@@ -14,10 +14,11 @@ import static org.junit.Assert.assertEquals;
 
 
 public class ExampleUnitTest {
+
     @Test
     public void test() {
         String email = "abc@gmail.com";
         String emailPattern = "^(.+)@(.+)$";
-        assertEquals(true, email.matches(emailPattern));
+        assertEquals(true, EmailValidator.isValidEmail(email, emailPattern));
     }
 }
