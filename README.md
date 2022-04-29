@@ -13,7 +13,7 @@ Do not pretend to be me to get any opportunities(including but not limited to jo
 
 
 
-### The projects below are what I did during my master's degree, so if anyone(except for my university's class project partner) using them for job application or other purposes, please let me know. No matter who you are, I will pursue all the losses caused by your impersonation.
+### The projects below are what I did during my master's degree. What's more, I have another natural language processing project. So if anyone(except for my university's class project partner) using them for job application or other purposes, please let me know. No matter who you are, I will pursue all the losses caused by your impersonation.
 
 Book Brainiacs (C#, ASP.NET, ADO.NET, Ajax)(Class Project)(Fall 2018)
 •	Designed and implemented shopping cart features. Implemented the function for customers to browse books
