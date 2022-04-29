@@ -13,7 +13,7 @@ Do not pretend to be me to get any opportunities(including but not limited to jo
 
 
 
-### The projects below are what I did during my master's degree, so if anyone(except for my university's class project partner) using them for job application or other purposes, please let me know. Or you can tell the hr directly, to maintain a fair competitive environment in the united states.
+### The projects below are what I did during my master's degree, so if anyone(except for my university's class project partner) using them for job application or other purposes, please let me know. Or if someone discovers that kind of situation, you can tell the hr directly, to maintain a fair competitive environment in the united states.
 
 Book Brainiacs (C#, ASP.NET, ADO.NET, Ajax)(Class Project)(Fall 2018)
 •	Designed and implemented shopping cart features. Implemented the function for customers to browse books
