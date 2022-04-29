@@ -14,7 +14,7 @@ Do not pretend to be me to get any opportunities(including but not limited to jo
 
 
 
-The projects below are what I did during my master's degree, so if anyone(except for my class project partner) using them for job application or other purposes, please let me know.
+###The projects below are what I did during my master's degree, so if anyone(except for my class project partner) using them for job application or other purposes, please let me know.
 
 Book Brainiacs (C#, ASP.NET, ADO.NET, Ajax)(Class Project)
 •	Designed and implemented shopping cart features. Implemented the function for customers to browse books
