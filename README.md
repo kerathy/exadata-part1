@@ -14,18 +14,18 @@ Do not pretend to be me to get any opportunities(including but not limited to jo
 
 ### The projects below are what I did during my master's degree. What's more, I have another natural language processing project. Because some recruiters received my resume before, so if anyone(except for my university's class project partner) uses them for job application or other purposes, please let me know. I do not allow anyone to use my projects. No matter who you are, I will pursue all the losses caused by your impersonation.
 
-Book Brainiacs (C#, ASP.NET, ADO.NET, Ajax)(Class Project)(Fall 2018)
+Book Brainiacs (C#, ASP.NET, ADO.NET, Ajax)(Class Project)
 •	Designed and implemented shopping cart features. Implemented the function for customers to browse books
 •	Allowed customers to submit contact information. Updated their profile information
 •	Allowed the administrator to manage user roles, book category information, and contact information
 
-PHP Website(PHP, MongoDB, XAMPP)(Class Project)(Fall 2019)
+PHP Website(PHP, MongoDB, XAMPP)(Class Project)
 •	Created and populated a MongoDB collection. Built a script that restricted access to the valid users we created in the collection. Encrypted all passwords from the users' collection
 •	Built a logout script that cleared all sessions and cookies. Returned controls back to the login page
 •	Verified admin users. Built logic for adding, updating, and deleting users
 •	Used reCaptcha to capture the response from Google to differentiate humans from robotic software programs
 
-What impact does language have on source quality?(Class Project)(Spring 2019)
+What impact does language have on source quality?(Class Project)
 •	Extracted data from 121,298 files, 135 public repositories on GitHub
 •	Created custom feature extractors for each language using publicly available ANTLR4 grammars
 •	Calculated some additional features from the dataset
