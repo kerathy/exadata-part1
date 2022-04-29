@@ -9,7 +9,7 @@ I am unemployed now(since the end of March) and have to find another job as soon
 
 If the code in my github repository is used for inappropriate purposes, I reserve the right to pursue the losses caused by that.
 
-Do not pretend to be me to get any job opportunities, no matter who you are, I will pursue the loss caused by your impersonation(including but not limited to reputation damage, economic loss). I am single.
+Do not pretend to be me to get any opportunities(including but not limited to job opportunities), no matter who you are, I will pursue the loss caused by your impersonation(including but not limited to reputation damage, economic loss). I am single.
 
 
 
