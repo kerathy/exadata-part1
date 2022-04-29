@@ -12,6 +12,8 @@ If the code in my github repository is used for inappropriate purposes, I reserv
 Do not pretend to be me to get any opportunities(including but not limited to job opportunities), no matter who you are, I will pursue the loss caused by your impersonation(including but not limited to reputation damage, economic loss). I am single.
 
 
+
+
 The projects below are what I did during my master's degree, so if anyone(except for my class project partner) using them for job application or other purposes, please let me know.
 
 Book Brainiacs (C#, ASP.NET, ADO.NET, Ajax)(Class Project)
