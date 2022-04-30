@@ -25,3 +25,19 @@ What impact does language have on source quality?(Class Project)(Spring 2019)
 •	Created custom feature extractors for each language using publicly available ANTLR4 grammars
 •	Calculated some additional features from the dataset
 •	Provided insights of the real-world strengths and weaknesses of various languages naturally utilized by a typical team of engineers
+
+### Also I have other two private class projects in May 2020 - Jun 2020.
+
+Twitter Stream Processor (Spark, Python, JavaScript)
+•	Built a data ingestion layer with external Twitter API
+•	Processed Twitter hashtags using a real-time processor Spark
+•	Visualized the results for 1% of all public Tweets using Ajax and JavaScript
+•	Deployed and configured on Google Cloud Platform to support external viewing
+
+Real-time Sentiment Analysis (Spark, Kafka, Python)	
+•	Implemented an event queuing layer to ensure stable data flow and system reliability using Kafka
+•	Set up a monitor with Spark (60 Tweets per second) for positive/negative sentiments
+•	Visualized the trends with Python for real-time positive/negative sentiments
+
+
+
