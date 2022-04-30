@@ -26,7 +26,7 @@ What impact does language have on source quality?(Class Project)(Spring 2019)
 •	Calculated some additional features from the dataset
 •	Provided insights of the real-world strengths and weaknesses of various languages naturally utilized by a typical team of engineers
 
-### Also I have other two private class projects in May 2020 - Jun 2020.
+### Also I have other two private class projects from May 2020 to Jun 2020.
 Twitter Stream Processor (Spark, Python, JavaScript)
 •	Built a data ingestion layer with external Twitter API
 •	Processed Twitter hashtags using a real-time processor Spark
