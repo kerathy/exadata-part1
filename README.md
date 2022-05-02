@@ -37,5 +37,13 @@ Real-time Sentiment Analysis (Spark, Kafka, Python)
 •	Set up a monitor with Spark (60 Tweets per second) for positive/negative sentiments
 •	Visualized the trends with Python for real-time positive/negative sentiments
 
+### Another personal project
+Spring Boot - Thymeleaf – CRUD Database Real-Time Project
+•	Created a Controller to handle web browser requests, apply the Service layer design pattern
+•	Integrated Repository to execute CRUD actions with Spring Data JPA
+•	Developed Thymeleaf templates to render database results. 
+•	Beautify Thymeleaf templates with Bootstrap CSS
+
+
 
 
