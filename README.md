@@ -46,6 +46,6 @@ Spring Boot - Thymeleaf – CRUD Database Real-Time Project
 •	Developed Thymeleaf templates to render database results. 
 •	Beautify Thymeleaf templates with Bootstrap CSS
 
-
+If anyone has any other concerns, please feel free to contact me(LinkedIn).
 
 
