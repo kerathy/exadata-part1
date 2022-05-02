@@ -2,7 +2,7 @@
 
 I am unemployed now(since the end of March) and have to find another job as soon as possible. I promise if I am involved in any illegal activity, even though I am in the United States, I will cooperate with any investigation. If you think any inappropriate words are used in my resume, please feel free to contact me. I worked for Exa Data from May 2021 to mid Oct 2021. After that, my job is not related to engineering. Now, I am looking for a job which is related to programmer, software engineer. If the code in my github repository is used for any inappropriate purpose, I reserve the right to pursue the losses caused by that.
 
-Do not pretend to be me to get any opportunities(including but not limited to job opportunities), no matter who you are, I will pursue the losses caused by your impersonation(including but not limited to reputation damage, economic loss). I am single(no ex-boyfriend). I have not engaged in any illegal conduct(including but not limited to corruption, bribery), nor have I engaged in any unethical conduct. My family has not received any illegal benefits because of my job.
+Do not pretend to be me to get any opportunities(including but not limited to job opportunities), no matter who you are, I will pursue the losses caused by your impersonation(including but not limited to reputation damage, economic loss). I am single(no ex-boyfriend). I have not engaged in any illegal conduct(including but not limited to corruption, bribery), nor have I engaged in any unethical conduct. My family has not received any illegal benefits because of my job. Studying abroad is at our own expense.
 
 
 
