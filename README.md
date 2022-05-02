@@ -1,7 +1,7 @@
 ### For all the projects I listed on my resume, all of them are finished by me, my project partner, my professor independently, no one else helps us. If they are used for any inappropriate purpose(university application, job application, commercial purpose), no matter who you are, I will pursue all the losses.
 
 
-I am unemployed now(since the end of March) and have to find another job as soon as possible. I promise if I am involved in any illegal activity, even though I am in the United States, I will cooperate with any investigation. If you think any inappropriate words are used on my LinkedIn profile, please feel free to contact me. This is my LinkedIn profile. https://www.linkedin.com/in/xiaoyanxu123/ I worked for Exa Data from May 2021 to mid Oct 2021. After that, my job is not related to engineering. Now, I am looking for a job which is related to programmer, software engineer. If the code in my github repository is used for any inappropriate purpose, I reserve the right to pursue the losses caused by that.
+I am unemployed now(since the end of March) and have to find another job as soon as possible. I promise if I am involved in any illegal activity, even though I am in the United States, I will cooperate with any investigation. If you think any inappropriate words are used on my LinkedIn profile, please feel free to contact me. This is my LinkedIn profile. https://www.linkedin.com/in/xiaoyanxu123/ I worked for Exa Data from May 2021 to mid Oct 2021(Sita Health Apr 2021 only). After that, my job is not related to engineering. Now, I am looking for a job which is related to programmer, software engineer. If the code in my github repository is used for any inappropriate purpose, I reserve the right to pursue the losses caused by that.
 
 
 
