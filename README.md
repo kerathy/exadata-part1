@@ -41,12 +41,19 @@ Real-time Sentiment Analysis (Spark, Kafka, Python)
 •	Set up a monitor with Spark (60 Tweets per second) for positive/negative sentiments
 •	Visualized the trends with Python for real-time positive/negative sentiments
 
-### Another personal project
+### Another two personal projects
 Spring Boot - Thymeleaf – CRUD Database Real-Time Project
 •	Created a Controller to handle web browser requests, apply the Service layer design pattern
 •	Integrated Repository to execute CRUD actions with Spring Data JPA
 •	Developed Thymeleaf templates to render database results. 
 •	Beautify Thymeleaf templates with Bootstrap CSS
+
+A Restaurant Search App
+•	Built app screen layout with React Native
+•	Built reusable components, screen navigation with Hooks, Context and React Navigation
+•	Made  request to run restaurant search with Yelp API and Axios
+•	Visualized the real-time result of different restaurants and their detailed information between different screens
+
 
 If anyone has any other concerns, please feel free to contact me(LinkedIn).
 
