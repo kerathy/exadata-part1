@@ -4,14 +4,15 @@ I am unemployed now(since the end of March) and have to find another job as soon
 
 
 
-
 Do not pretend to be me to get any opportunities(including but not limited to job opportunities)(I do not have an English name), no matter who you are, I will pursue the losses caused by your impersonation(including but not limited to reputation damage, economic loss). I am single(no ex-boyfriend, I have siblings). I have not engaged in any illegal conduct(including but not limited to corruption, bribery), nor have I engaged in any unethical conduct. My family has not received any illegal benefits because of my job. I did not sign any non-competition clause. Education(including but not limited to studying abroad) is at our own expense. I can provide all the formal contracts, offer letters and resignation letters. For all the jobs I did before, I resigned them(If any evidence needed, please let me know. For the job in China, email can be sent to get their formal confirmation, HR@us.icbc.com.cn). For any impersonation, the job in China, you can ask them to provide formal contracts(One position should correspond to one formal contract), the job in the United States, you can ask them to provide offer letters. Especially the working experience in China, my previous employer has the right to pursue corporate's reputation damage because of your impersonation no matter who you are.
 
 
 
 ### The projects below are what I did during my master's degree. What's more, I have another natural language processing project. Because some recruiters and someone else received my resume before, so if anyone(except for my university's class project partner) uses them for job application or other purposes, please let me know. I do not allow anyone to use my projects. No matter who you are, I will pursue all the losses caused by your impersonation. 
 
-If anyone finds that kind of situation, you can tell the hr directly, to maintain a fair competitive environment in the United States. I have to guarantee my resume which will not be rejected because someone else uses my project. If any evidence is needed, please feel free to contact me(LinkedIn). The hiring committee has the right to retract any job offer, any university offer.
+
+If anyone finds that kind of situation, you can tell the hr directly, to maintain a fair competitive environment in the United States. I have to guarantee my resume which will not be rejected because someone else uses my projects. If any evidence is needed, please feel free to contact me(LinkedIn). The hiring committee has the right to retract any job offer, any university offer.
+
 
 Book Brainiacs (C#, ASP.NET, ADO.NET, Ajax)(Class Project)(Fall 2018)(One project partner)
 •	Designed and implemented shopping cart features. Implemented the function for customers to browse books
