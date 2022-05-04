@@ -4,7 +4,7 @@ I am unemployed now(since the end of March) and have to find another job as soon
 
 
 
-Do not pretend to be me to get any opportunities(including but not limited to job opportunities), no matter who you are, I will pursue the losses caused by your impersonation(including but not limited to reputation damage, economic loss). I am single(no ex-boyfriend, I have siblings). I have not engaged in any illegal conduct(including but not limited to corruption, bribery), nor have I engaged in any unethical conduct. My family has not received any illegal benefits because of my job. Education(including but not limited to studying abroad) is at our own expense. I did not sign any non-competition clause which does not mean I do not have to abide by professional ethics. Especially the working experience in China, my previous employer has the right to pursue corporate's reputation damage because of your impersonation.
+Do not pretend to be me to get any opportunities(including but not limited to job opportunities), no matter who you are, I will pursue the losses caused by your impersonation(including but not limited to reputation damage, economic loss). I am single(no ex-boyfriend, I have siblings). I have not engaged in any illegal conduct(including but not limited to corruption, bribery), nor have I engaged in any unethical conduct. My family has not received any illegal benefits because of my job. I did not sign any non-competition clause. Education(including but not limited to studying abroad) is at our own expense. Especially the working experience in China, my previous employer has the right to pursue corporate's reputation damage because of your impersonation.
 
 
 
