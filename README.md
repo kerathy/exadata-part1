@@ -16,10 +16,12 @@ I guarantee that I have not disclosed anything that should not have been disclos
 If anyone finds that kind of situation, you can tell the hr directly, to maintain a fair competitive environment in the United States. I have to guarantee my resume which will not be rejected because someone else uses my projects. If any evidence is needed, please feel free to contact me(LinkedIn). The hiring committee has the right to retract any job offer, any university offer.
 
 
+
 Book Brainiacs (C#, ASP.NET, ADO.NET, Ajax)(Class Project)(Fall 2018)(One project partner)
 •	Designed and implemented shopping cart features. Implemented the function for customers to browse books
 •	Allowed customers to submit contact information. Updated their profile information
 •	Allowed the administrator to manage user roles, book category information, and contact information
+Audio: https://drive.google.com/file/d/1c2eFn6IwYBb3h2rXL7HNOejdbMo9NZov/view?usp=sharing
 
 PHP Website(PHP, MongoDB, XAMPP)(Class Project)(Fall 2019)
 •	Created and populated a MongoDB collection. Built a script that restricted access to the valid users we created in the collection. Encrypted all passwords from the users' collection
@@ -32,6 +34,7 @@ What impact does language have on source quality?(Class Project)(Spring 2019)(On
 •	Created custom feature extractors for each language using publicly available ANTLR4 grammars
 •	Calculated some additional features from the dataset
 •	Provided insights of the real-world strengths and weaknesses of various languages naturally utilized by a typical team of engineers
+Audio: https://drive.google.com/file/d/1SMXjyJUZr3t-THqSjBUBOGmvDpPW5bjY/view?usp=sharing
 
 ### Also I have other two private class projects from May 2020 to Jun 2020.
 Twitter Stream Processor (Spark, Python, JavaScript)
