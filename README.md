@@ -20,11 +20,10 @@ If anyone finds that kind of situation, you can tell the hr directly, to maintai
 
 
 
-Book Brainiacs (C#, ASP.NET, ADO.NET, Ajax)(Class Project)(Fall 2018)(One project partner)
+Book Brainiacs(C#, ASP.NET, ADO.NET, Ajax)(Class Project)(Fall 2018)(One project partner)
 •	Designed and implemented shopping cart features. Implemented the function for customers to browse books
 •	Allowed customers to submit contact information. Updated their profile information
 •	Allowed the administrator to manage user roles, book category information, and contact information
-
 
 PHP Website(PHP, MongoDB, XAMPP)(Class Project)(Fall 2019)
 •	Created and populated a MongoDB collection. Built a script that restricted access to the valid users we created in the collection. Encrypted all passwords from the users' collection
