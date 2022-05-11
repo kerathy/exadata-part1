@@ -70,4 +70,6 @@ A Restaurant Search App
 
 If anyone has any other concerns, please feel free to contact me(LinkedIn).
 
+A Chinese proverb: 君子坦荡荡，小人长戚戚
+
 
