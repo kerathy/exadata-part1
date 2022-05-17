@@ -79,8 +79,8 @@ A Restaurant Search App
 •	Made  request to run restaurant search with Yelp API and Axios
 •	Visualized the real-time result of different restaurants and their detailed information between different screens
 
-
-If anyone has any other concerns, please feel free to contact me(LinkedIn).
+If anyone has any other concerns, please feel free to contact me(LinkedIn). Attached is my resume.
+https://docs.google.com/document/d/1peQ2ImqMTU1R6-V4k0WZVey-4oYK5jzjgpwSN29J94g/edit?usp=sharing
 
 A Chinese proverb: 君子坦荡荡，小人长戚戚
 
