@@ -2,7 +2,7 @@ Statement Audio:
 https://drive.google.com/file/d/1_NaJneoA0KdtLOxSNkWRyoAmAjEwbZMQ/view?usp=sharing
 
 ### Please do not affect my life, my career(no limitation!!!), no matter who you are, I do not have any problems. I am not responsible for other's life.
-### Affect other's life, career(Tab - selfish people). None of my business!!! No matter what kind of decision you made, no one forces you to make that decision, it is up to you.
+### Affect other's life, career(Tab - selfish people). None of my business!!! No matter what kind of decision you made, no one forces you to make that decision, it is up to you. Think about the origin.
 
 
 ### For all the projects I listed on my resume, all of them are finished by me, my project partner, my professor independently, no one else helps us. If they are used for any inappropriate purposes(university application, job application, commercial purpose), no matter who you are, I will pursue all the losses.
