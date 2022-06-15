@@ -1,6 +1,8 @@
 Statement Audio:
 https://drive.google.com/file/d/1_NaJneoA0KdtLOxSNkWRyoAmAjEwbZMQ/view?usp=sharing
 
+I made the statement on May 7th, 2022, sometimes I updated something, and the last updated date is Jun 14th, 2022.
+
 ### Please do not affect my life, my career(no limitation!!! I like step by step), no matter who you are, I do not have any problems. I am not responsible for other's life.
 ### Affect other's life, career(Tab - selfish people). None of my business!!! No matter what kind of decision you made, no one forces you to make that decision, it is up to you.
 
