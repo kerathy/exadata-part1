@@ -1,6 +1,10 @@
 Statement Audio(I recorded the audio on May 7th, 2022):
 https://drive.google.com/file/d/1_NaJneoA0KdtLOxSNkWRyoAmAjEwbZMQ/view?usp=sharing
 
+I am not bound to any companies. Any job opportunities are welcome.
+
+I don't conduct interviews on behalf of anyone. My voice is easy to recognize.
+
 I made the statement on May 7th, 2022(It should be earlier(maybe github can show the time), I forget that, that should be earlier than I uploaded the audio.), sometimes I updated something, and the last updated date is Jun 14th, 2022. I uploaded the audio on May 7th, 2022.
 
 ### Please do not affect my life, my career(no limitation!!! I like step by step), no matter who you are, I do not have any problems. I am not responsible for other's life.
