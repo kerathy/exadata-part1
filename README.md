@@ -1,3 +1,6 @@
+Project committed on Github:
+https://docs.google.com/document/d/1jPYmG-cws3vT0idHN8sUZFASq2-T2IRGz1OXDSG2bgk/edit
+
 I didn't use any tools in the post I wrote before; it was a draft. It's similar to "handwriting," a metaphor. This statement was rewritten and finished on January 16, 2022.
 
 I rewrite things very quickly, so don't worry about that; there won't be any writing issues with my work.
