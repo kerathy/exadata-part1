@@ -13,7 +13,9 @@ https://www.instagram.com/kerathy_xiaoyan/
 
 ### I am not bound to any companies. Any job opportunities are welcome. 
 
-I don't work on C2C now. Get what you deserve. That will slow down my career. I am not responsible for others' lives. I don't help to cover the university admission committee's mistakes. Preventing competency and equality slows down the development of society. Hard work pays off.
+I don't work on C2C now. Get what you deserve. That will slow down my career. I am not responsible for others' lives. I don't help to cover the university admission committee's mistakes. Preventing competency and equality slows down the development of society. Hard work pays off. HR hires employees for the sake of the company's profit—how much you pay, how much effort we put in. 
+
+I am not responsible for others' ICC contracts, no matter who you are, including but not limited to classmates, friends, professors, and so on. I won't choose someone who has had penalty arguments with the ICC and hasn't negotiated well as my future boyfriend. Therefore, it is none of my business. Lawsuits can be filed for that. none of my business.
 
 We have books and the internet. You can learn anything alone.
 
