@@ -3,6 +3,8 @@ https://docs.google.com/document/d/1jPYmG-cws3vT0idHN8sUZFASq2-T2IRGz1OXDSG2bgk/
 
 I didn't use any tools in the post I wrote before; it was a draft. It's similar to "handwriting," a metaphor. This statement was rewritten and finished on January 16, 2022, and updated on January 22, 2022.
 
+Please don't confuse me with anyone else; up till now (May 2023), I've only lived in China and the United States. I am not a twin. I have never visited other countries. This page was updated on May 10, 2023. If there is anything else I should clarify, please email me. Just in case there is any online blind dating scam. I am not familiar with them. That is beyond my control. I post here in case there is any kind of fraud.
+
 I rewrite things very quickly, so don't worry about that; there won't be any writing issues with my work.
 
 Statement Audio (I recorded the audio on May 7th, 2022):
