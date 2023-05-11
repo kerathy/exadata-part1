@@ -3,7 +3,13 @@ https://docs.google.com/document/d/1jPYmG-cws3vT0idHN8sUZFASq2-T2IRGz1OXDSG2bgk/
 
 I didn't use any tools in the post I wrote before; it was a draft. It's similar to "handwriting," a metaphor. This statement was rewritten and finished on January 16, 2022, and updated on January 22, 2022.
 
-Please don't confuse me with anyone else; up till now (May 2023), I've only lived in China and the United States. I am not a twin. I have never visited other countries. This page was updated on May 10, 2023. If there is anything else I should clarify, please email me. Just in case there is any online blind dating scam. I am not familiar with them. That is beyond my control. I post here in case there is any kind of fraud.
+This section was last modified on May 10, 2023. [It is beyond my control. If there was any plan or conspiracy led by China or the US. You should discuss any resulting consequences with China or the United States. I promise I never got involved with that.
+
+Please don't confuse me with anyone else; up till now (May 2023), I've only lived in China and the United States. I am not a twin. I have never visited other countries. Up till now (May 2023), I have not returned to China after coming to the United States. Please inform me if there is anything else I should clarify. Just in case there is any online blind dating scam. I am not familiar with them. That is beyond my control. Just in case there is any fraud or criminal activity.
+
+My photographs were previously saved in the ICBC database. My previous photos were taken using the same phone. As a result, it should be easy to identify. At the time, I weighed roughly 50kg and wasn't overweight. I didn't look much different. The hairstyle was nearly the same. My profile at Utah State University should be easy to find. Therefore, I never consider the possibility of fraud. There have been various official records for a long time. You will not do it unless you are unfamiliar with the bank. I post here just in case of any type of fraud.
+
+My family is unlike other families. We have no issues based on China's policy. Don't judge based on your own personal experience. If further explanation is required, I can provide it later. I'm not surprised you're unfamiliar with China's history and policies. In China, there should be an official record.] This section was last modified on May 10, 2023.
 
 I rewrite things very quickly, so don't worry about that; there won't be any writing issues with my work.
 
